@@ -48,7 +48,7 @@ export default {
     itemsPerPage: {
       type: Number,
       required: false,
-      default: 10
+      default: 100
     }
   },
   data() {

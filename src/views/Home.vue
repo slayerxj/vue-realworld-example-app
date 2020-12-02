@@ -2,8 +2,8 @@
   <div class="home-page">
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">conduit</h1>
-        <p>A place to share your knowledge.</p>
+        <h1 class="logo-font">pophire</h1>
+        <p>A place to hire.</p>
       </div>
     </div>
     <div class="container page">
@@ -11,7 +11,7 @@
         <div class="col-md-9">
           <div class="feed-toggle">
             <ul class="nav nav-pills outline-active">
-              <li v-if="isAuthenticated" class="nav-item">
+              <!-- <li v-if="isAuthenticated" class="nav-item">
                 <router-link
                   :to="{ name: 'home-my-feed' }"
                   class="nav-link"
@@ -19,7 +19,7 @@
                 >
                   Your Feed
                 </router-link>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <router-link
                   :to="{ name: 'home' }"
